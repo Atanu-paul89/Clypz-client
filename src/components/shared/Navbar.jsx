@@ -32,11 +32,11 @@ const Navbar = () => {
     };
 
     return (
-        <div className={`navbar px-0 md:px-4 py-2 shadow-md transition-all duration-300
+        <div className={`navbar px-2 md:px-4 py-2 shadow-md transition-all duration-300
             `}>
 
             <div className="navbar-start">
-                <div className="drawer">
+                <div className="drawer z-20">
                     <input id="my-drawer" type="checkbox" className="drawer-toggle" />
                     <div className="drawer-content">
                         <label htmlFor="my-drawer" className="cursor-pointer drawer-button text-xl">
